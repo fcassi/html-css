@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Honk&family=Roboto:wght@300&display=swap);
+
+div{
+    border: 10px yellow solid;
+    padding: 5px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Honk', system-ui;
+    text-align: center;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    /* Comentário Legal */
+
+
+}
+

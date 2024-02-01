@@ -1,0 +1,12 @@
+*{
+    border: 1px black solid;
+}
+
+.exemplo p{
+    color: red;
+}
+
+.exemplo ul li{
+    color: rgb(4, 11, 27);
+}
+
