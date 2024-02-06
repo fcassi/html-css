@@ -17,4 +17,6 @@ body {
     background-color: rgb(164, 114, 249);
     text-align: center;
     font-weight: bold;
+    border-radius: 10px;
 }
+
