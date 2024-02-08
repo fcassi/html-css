@@ -1,0 +1,21 @@
+.container {
+    width: 400px;
+    height: 400px;
+    border: dashed black 3px;
+}
+
+.box1, .box2 {
+    width: 40px;
+    height: 40px;
+}
+
+.box1 {
+    background-color: blue;
+    position: fixed;
+    border-radius: 100%;
+    right: 0px;
+    top: 400px;
+}
+.box2 {
+    background-color: green;
+}
