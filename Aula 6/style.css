@@ -33,7 +33,7 @@ body {
 
 .box {
     width: 200px;
-    border: 3px white solid;
+    border: 2px white solid;
 }
 
 .title{
@@ -51,6 +51,8 @@ body {
 
 .link {
     padding-bottom: 15px;
+    text-decoration: none;
+    color: linear-gradient(rgb(59, 255, 255), white);
     font-family: 'Montserrat', sans-serif;
 }
 
