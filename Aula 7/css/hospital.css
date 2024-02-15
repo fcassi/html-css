@@ -26,8 +26,10 @@ header {
     align-items: center;
 }
 
-nav ul, nav li{
-    list-style-type: none; /* Tirar as bolas da lista */
+nav ul,
+nav li {
+    list-style-type: none;
+    /* Tirar as bolas da lista */
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,7 +42,8 @@ nav a {
     transition: 300ms all;
 }
 
-nav .active a, nav a:hover{
+nav .active a,
+nav a:hover {
     background-color: #39aee1;
     color: white;
     cursor: pointer;
@@ -55,7 +58,7 @@ nav .active a, nav a:hover{
     background-position: center;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
@@ -69,21 +72,94 @@ nav .active a, nav a:hover{
 
 .banner_headline h1 {
     font-size: 70px;
-    margin: 0;  
+    margin: 0;
     padding: 0;
     text-shadow: 0px 3px 0px #5555;
     max-width: 350px;
 }
 
 .banner_headline h2 {
+    font-size: 21px;
     margin: 0;
     padding: 0;
-    margin-top: 30px;  
+    margin-top: 30px;
     padding: 0;
     text-shadow: 0px 3px 0px #5555;
     max-width: 350px;
 }
 
-.banner_options{
+.banner_options {
     height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #399ae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.bannerTitle {
+    font-size: 21px;
+}
+
+.bannerDesc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+.widgetTitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widgetTitleText {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widgetTitleBar {
+    width: 50px;
+    height: 5px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}   
+
+#rodape {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
 }
