@@ -54,7 +54,7 @@ a {
     text-align: center;
     padding: 10px;
     margin: 7px;
-    transition: 500ms all;
+    transition: 400ms all;
 }
 
 a:hover {
