@@ -163,3 +163,49 @@ nav a:hover {
     font-size: 12px;
     margin-top: 30px;
 }
+
+@media (max-width:800px){
+
+    .menu nav ul {
+        margin-top: 50px;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #ffff;
+    }
+
+    .banner_headline h1{
+        font-size: 55px;
+        margin-left: 30px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+        padding: 30px;
+        text-shadow: 0px 2px 0px #5555; 
+    }
+
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    #geral {
+        padding: 20px;
+    }
+
+    #rodape {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        padding-left: 10px;
+
+    }
+}
